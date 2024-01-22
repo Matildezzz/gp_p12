@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenidas y mujeres</title>
+    <style>
+        body{
+            margin-top: 15%;
+            margin-left: 20%;
+            font-weight: 200;
+            background-color: #dad6ce;
+        }
+        #img1 , #img2 , #img3 , #img4 , #img5 , #img6 , #img7 , #img8 {
+            position:fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src = "img/img1.png" style="visibility:hidden" id="img1">
+    <p><span id="avenidas" onmouseover = "show()" onmouseleave="hide()">avenidas</span>
+        <img src = "img/img2.png" style="visibility:hidden" id="img2">
+        <br><span id="avenidas y flores" onmouseover = "show2()" onmouseleave="hide2()">avenidas y flores</span></p>
+    
+    <img src="img/img3.png" style="visibility: hidden;" id="img3">
+    <p><span id="flores" onmouseover = "show3()" onmouseleave="hide3()">flores</span>
+        <img src = "img/img4.webp" style="visibility:hidden" id="img4">
+        <br><span id="flores y mujeres" onmouseover = "show4()" onmouseleave="hide4()"> flores y mujeres </span></p>
+
+    <img src="img/img5.png" style="visibility: hidden;" id="img5">
+    <p><span id="avenidas2" onmouseover = "show5()" onmouseleave="hide5()">avenidas</span>
+        <img src="img/img6.webp" style="visibility: hidden;" id="img6">
+        <br><span id="avenidas y mujeres" onmouseover = "show6()" onmouseleave="hide6()">avenidas y mujeres</span></p>
+
+    <img src="img/img7.png" style="visibility: hidden;" id="img7">
+    <p><span id="avenidas y flores y mujeres y" onmouseover = "show7()" onmouseleave="hide7()">avenidas y flores y mujeres y</span>
+        <img src="img/img8.png" style="visibility: hidden;" id="img8">
+        <br><span id="un admirador" onmouseover = "show8()" onmouseleave="hide8()">un admirador</span></p>
+        
+        <script type = "text/javascript">
+            /*avenidas*/
+            function show() {
+                document.getElementById('img1').style.visibility = 'visible';
+            }
+            function hide() {
+                document.getElementById('img1').style.visibility = 'hidden';
+            }
+            /*avenidas y flores*/
+            function show2() {
+                document.getElementById('img2').style.visibility = 'visible';
+            }
+            function hide2() {
+                document.getElementById('img2').style.visibility = 'hidden';
+            }
+            /*flores*/
+            function show3() {
+                document.getElementById('img3').style.visibility = 'visible';
+            }
+            function hide3() {
+                document.getElementById('img3').style.visibility = 'hidden';
+            }
+            /*flores y mujeres*/
+            function show4() {
+                document.getElementById('img4').style.visibility = 'visible';
+            }
+            function hide4() {
+                document.getElementById('img4').style.visibility = 'hidden';
+            }
+            /*avenidas*/
+            function show5() {
+                document.getElementById('img5').style.visibility = 'visible';
+            }
+            function hide5() {
+                document.getElementById('img5').style.visibility = 'hidden';
+            }
+            /*avenidas y mujeres*/
+            function show6() {
+                document.getElementById('img6').style.visibility = 'visible';
+            }
+            function hide6() {
+                document.getElementById('img6').style.visibility = 'hidden';
+            }
+            /*avenidas y flores y mujeres y*/
+            function show7() {
+                document.getElementById('img7').style.visibility = 'visible';
+            }
+            function hide7() {
+                document.getElementById('img7').style.visibility = 'hidden';
+            }
+            /*un admirador*/
+            function show8() {
+                document.getElementById('img8').style.visibility = 'visible';
+            }
+            function hide8() {
+                document.getElementById('img8').style.visibility = 'hidden';
+            }
+        </script>      
+</body>
+</html>
